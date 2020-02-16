@@ -1,6 +1,6 @@
 ﻿namespace AbstractNodeConnection {
     public class AddNode : Node {
-        public AddNode(int inputs) {
+        public AddNode(int inputs = 2) {
             inputNodes = new Connection[inputs];
             outputNodes = new Connection[1];
         }

@@ -4,7 +4,7 @@
     // 
     // Each connection needs to know the index of connection with the other node
     // 
-    public abstract class Node {
+    public abstract class Node  {
         public int NumberOfInputs => inputNodes.Length;
         public int NumberOfOutputs => outputNodes.Length;
         public bool HasInput => NumberOfInputs != 0;
