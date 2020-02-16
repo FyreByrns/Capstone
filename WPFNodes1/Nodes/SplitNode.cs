@@ -1,6 +1,6 @@
 ﻿namespace AbstractNodeConnection {
     public class SplitNode : Node {
-        public SplitNode(int times) {
+        public SplitNode(int times = 1) {
             inputNodes = new Connection[1];
             outputNodes = new Connection[times];
         }
